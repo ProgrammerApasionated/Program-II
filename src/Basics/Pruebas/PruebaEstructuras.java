@@ -1,3 +1,5 @@
+package Basics.Pruebas;
+
 // Programa para probar distintas estructuras condicionales o secuenciales.
 // Ejemplos completamente triviales pero útiles para empezar.
 public class PruebaEstructuras {

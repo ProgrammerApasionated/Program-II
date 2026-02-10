@@ -1,3 +1,5 @@
+package Basics.EjerciciosSimples;
+
 import java.util.Scanner;
 // Programa que pidiendo un número al usuario dice si es par o impar.
 public class ParImpar {

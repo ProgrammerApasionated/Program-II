@@ -1,6 +1,8 @@
+package Basics.Pruebas;
+
 import java.util.Scanner;
 
-public class Main {
+public class PruebaParImpar {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Introduce un número: ");

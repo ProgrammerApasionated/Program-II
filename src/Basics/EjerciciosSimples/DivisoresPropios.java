@@ -1,3 +1,5 @@
+package Basics.EjerciciosSimples;
+
 import java.util.Scanner;
 // Programa que calcula los divisores propios de un número.
 public class DivisoresPropios {

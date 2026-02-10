@@ -1,3 +1,5 @@
+package Basics.EjerciciosSimples;
+
 import java.util.Scanner;
 // Hacemos un programa de un cálculo de un factorial con un número que da el usuario.
 public class Factorial {
