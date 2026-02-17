@@ -1,6 +1,8 @@
 package Estructuras;
 
 import java.util.Scanner;
+import java.util.Arrays;
+
 // Estructura para crear un vector en Java.
 public class EstructuraCrearVector {
     public static void main(String[] args) {
@@ -12,5 +14,6 @@ public class EstructuraCrearVector {
         for (int i = 0; i < dim; i++) {
             v[i] = sc.nextInt();
         }
+        System.out.println("El vector original es : " + Arrays.toString(v));
     }
 }
