@@ -16,17 +16,20 @@ public class MatrizTranspuesta {
                 matriz[i][j] = sc.nextInt();
             }
         }
+        // Con la estructura de Estructuras.EstructuraCrearMatriz creamos la matriz.
         int[][] transpuesta = matrizTranspuesta(matriz);
         System.out.println("Matriz original : ");
         imprimirMatriz(matriz);
         System.out.println("Matriz transpuesta : ");
         imprimirMatriz(transpuesta);
+        // Creando un método imprimir podemos enseñar una representación aproximada de los valores de la matriz.
     }
     public static int[][] matrizTranspuesta(int [][] matriz){
         int[][] matriz_trans = new int[matriz[0].length][matriz.length];
         for (int i = 0; i < matriz.length; i++){
             for (int i2 = 0; i2 < matriz[0].length; i2++){
                 matriz_trans[i2][i] = matriz[i][i2];
+                // Creamos una variable auxiliar con los valores de la fila y columna de la matriz invertidos (filas por columnas y columnas por filas)
             }
         }
         return matriz_trans;
@@ -38,6 +41,7 @@ public class MatrizTranspuesta {
             }
             System.out.println();
         }
+        // Enseñamos la matriz y hacemos un salto de línea por pura estética.
     }
 
 }

@@ -32,3 +32,4 @@ public class EncontrarPatrón {
         return false;
     }
 }
+// Mediante una comprobación con valores boolean, se puede comprobar si coincide o no un patrón con una cadena.

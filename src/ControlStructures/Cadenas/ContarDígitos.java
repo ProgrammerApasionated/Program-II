@@ -21,6 +21,6 @@ public class ContarDígitos {
                 ++cant_num;
             }
         }
-return cant_num;
+        return cant_num;
     }
 }

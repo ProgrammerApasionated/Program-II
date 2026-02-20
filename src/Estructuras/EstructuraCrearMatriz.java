@@ -19,3 +19,4 @@ public class EstructuraCrearMatriz {
         }
     }
 }
+// Utilizado en los ejercicios de matrices.

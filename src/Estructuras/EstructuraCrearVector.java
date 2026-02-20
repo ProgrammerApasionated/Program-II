@@ -17,3 +17,4 @@ public class EstructuraCrearVector {
         System.out.println("El vector original es : " + Arrays.toString(v));
     }
 }
+// Utilizado en los ejercicios de vectores.

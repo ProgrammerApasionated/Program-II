@@ -8,3 +8,4 @@ public class EstructuraScanner {
         int variable = sc.nextInt();
     }
 }
+// Utilizado en casi todos los ejercicios del repositorio.

@@ -24,9 +24,13 @@ public class EstructuraMenu {
                 System.out.println("Variable creada: " + variable);
             }
             if (opcion == 3) {
+                matriz = crearMatriz();
+            }
+        }
+            if (opcion == 4) {
                 System.out.println("Saliendo del programa...");
             }
-            if (opcion < 1 || opcion > 3) {
+            else {
                 System.out.println("Opción no válida.");
             }
         }
@@ -49,4 +53,23 @@ public class EstructuraMenu {
         int variable = sc.nextInt();
         return variable;
     }
+    public static int [][] crearMatriz(){
+        public static void main (String[]args) {
+            Scanner sc = new Scanner(System.in);
+            System.out.print("Número de filas de la matriz: ");
+            int filas = sc.nextInt();
+            System.out.print("Número de columnas de la matriz: ");
+            int columnas = sc.nextInt();
+            int[][] matriz = new int[filas][columnas];
+            System.out.println("Introduce los valores de la matriz:");
+            for (int i = 0; i < filas; i++) {
+                for (int j = 0; j < columnas; j++) {
+                    System.out.print("Elemento [" + i + "][" + j + "]: ");
+                    matriz[i][j] = sc.nextInt();
+                }
+            }
+            return matriz;
+    }
 }
+// Futura implementación en los proyectos realizados.
+// Consistente en un menú + las actuales estrucuturas.
