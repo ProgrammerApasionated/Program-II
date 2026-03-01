@@ -1,20 +1,67 @@
-# Archivos de sistema
+# ============================
+# OS FILES
+# ============================
 .DS_Store
 Thumbs.db
 
-# Archivos temporales
+# ============================
+# JAVA BUILD FILES
+# ============================
+*.class
+*.jar
+*.war
+*.ear
+
+# ============================
+# LOGS & TEMP FILES
+# ============================
 *.log
-*.bak
 *.tmp
+*.bak
 
-# Archivos de Python
-__pycache__/
-*.pyc
+# ============================
+# INTELLIJ IDEA
+# ============================
+.idea/
+*.iml
+out/
+# IntelliJ caches
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
 
-# Archivos de entorno
+# ============================
+# MAVEN
+# ============================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# ============================
+# GRADLE
+# ============================
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# ============================
+# VSCODE (por si lo usas)
+# ============================
+.vscode/
+
+# ============================
+# ENV FILES
+# ============================
 .env
 
-# Archivos de editor
-.vscode/
-.idea/
->>>>>>> d2b0951bba663467c019a80e0615d91b5f0f01b3
+# ============================
+# BACKUP FILES
+# ============================
+*.swp
+*.swo
+*~

@@ -17,7 +17,7 @@ it’s about **learning, consistency, and growth**.
 
 ## 👤 Who I Am
 
-My name is Álvaro, and I am currently studying **Computer Engineering** at **:contentReference[oaicite:0]{index=0} (UJI)**.
+My name is Álvaro, and I am currently studying **Computer Engineering** at (UJI)**.
 
 This repository is part of my learning journey:  
 a place where I track my progress, challenge myself, and build the foundations of my technical identity as a future engineer.
