@@ -30,17 +30,21 @@ public class Libro {
     public String getAutor() {
         return this.autor;
     }
+
     public boolean getDisponible(){
         return this.disponible;
     }
+
     public boolean cambiarEstado(){
         this.disponible = !this.disponible;
         return this.disponible;
     }
+
     @Override
     public String toString() {
         return "Titulo -> " + titulo + " con autor -> " + autor + " y con estado -> " + disponible;
     }
+
     @Override
     public boolean equals(Object o) {
         if (this == o){

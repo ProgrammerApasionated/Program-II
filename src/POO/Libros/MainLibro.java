@@ -13,7 +13,7 @@ public class MainLibro {
         System.out.println("2. Autor");
         System.out.println("3. Sitio");
         System.out.println("4. Cambiar estado de prestado");
-        System.out.println("Otro número: nada");
+        System.out.println("Otro número: Ningún Cambio");
         int opcion = sc.nextInt();
         sc.nextLine(); // limpiar buffer
         switch (opcion) {

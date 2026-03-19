@@ -26,7 +26,9 @@ public class MainInventario {
             opcion = Integer.parseInt(sc.nextLine());
             switch (opcion){
                 case 1:
-                    System.out.println("Introduce la ruta del fichero: \n");
+                    System.out.println("La ruta actual es : ");
+                    System.out.println(System.getProperty("user.dir"));
+                    System.out.println("Introduce la ruta del fichero: ");
                     String ruta = sc.nextLine();
                     File f = new File(ruta);
                     if (!f.exists()){
@@ -86,3 +88,4 @@ public class MainInventario {
         sc.close();
     }
 }
+
