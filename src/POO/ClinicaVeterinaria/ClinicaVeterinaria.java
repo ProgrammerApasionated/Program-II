@@ -7,7 +7,6 @@ public class ClinicaVeterinaria {
     }
     public void registrarMascota(Mascota m) {
         Mascota[] nuevo = new Mascota[mascotas.length + 1];
-
         for (int i = 0; i < mascotas.length; i++) {
             nuevo[i] = mascotas[i];
         }
@@ -38,7 +37,6 @@ public class ClinicaVeterinaria {
     }
     public boolean eliminarPorNombre(String nombre) {
         int pos = -1;
-
         for (int i = 0; i < mascotas.length; i++) {
             if (mascotas[i].getNombre().equals(nombre)) {
                 pos = i;

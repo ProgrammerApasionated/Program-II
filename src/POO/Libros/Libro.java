@@ -12,39 +12,30 @@ public class Libro {
         this.sitio = sitio;
         this.prestado = prestado;
     }
-
     public String getNombre() {
         return nombre;
     }
-
     public String getAutor() {
         return autor;
     }
-
     public String getSitio() {
         return sitio;
     }
-
     public boolean isPrestado() {
         return prestado;
     }
-
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-
     public void setAutor(String autor) {
         this.autor = autor;
     }
-
     public void setSitio(String sitio) {
         this.sitio = sitio;
     }
-
     public void cambiarPrestado() {
         this.prestado = !prestado;
     }
-
     public void imprimir() {
         System.out.println("=== Información del libro ===");
         System.out.println("Nombre: " + nombre);

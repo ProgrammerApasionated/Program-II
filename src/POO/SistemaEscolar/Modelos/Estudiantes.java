@@ -14,15 +14,12 @@ public class Estudiantes {
     public String getNombre(){
         return this.nombre;
     }
-
     public String getCurso(){
         return this.curso;
     }
-
     public int cantNotas(){
         return this.notas.length;
     }
-
     public String mostrarNotas(){
         String notas = "";
         if (cantNotas() == 0){
@@ -35,7 +32,6 @@ public class Estudiantes {
         return notas;
         // Devuelve las notas con un espacio entre notas.
     }
-
     public int notaMedia(){
         int suma_notas = 0;
         if (cantNotas() == 0){

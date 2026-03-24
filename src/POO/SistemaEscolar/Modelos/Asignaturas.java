@@ -26,12 +26,10 @@ public class Asignaturas {
     public String getProfesor(){
         return this.profesor;
     }
-
     @Override
     public String toString(){
         return "La asignatura -> " + this.asignatura + " tiene como horario -> " + this.horario + " y como profesor a -> " + this.profesor;
     }
-
     public int getCant_profe(){
         return cant_profe;
     }

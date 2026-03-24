@@ -15,11 +15,9 @@ public class SistemaEscolar {
     // Métodos para Estudiantes.
     public void insertarEstudiante(Estudiantes e) {
         Estudiantes[] nuevo = new Estudiantes[estudiantes.length + 1];
-
         for (int i = 0; i < estudiantes.length; i++) {
             nuevo[i] = estudiantes[i];
         }
-
         nuevo[estudiantes.length] = e;
         estudiantes = nuevo;
     }
@@ -45,7 +43,6 @@ public class SistemaEscolar {
     // Métodos de Asignaturas.
     public void insertarAsignatura(Asignaturas a) {
         Asignaturas[] nuevo = new Asignaturas[asignaturas.length + 1];
-
         for (int i = 0; i < asignaturas.length; i++) {
             nuevo[i] = asignaturas[i];
         }

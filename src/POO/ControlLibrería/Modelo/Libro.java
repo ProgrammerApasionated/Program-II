@@ -1,27 +1,22 @@
 package POO.ControlLibrería.Modelo;
 
 public class Libro {
-
     private String titulo;
     private String autor;
     private boolean disponible;
-
     public Libro(String titulo, String autor, boolean estado) {
         this.titulo = titulo;
         this.autor = autor;
         this.disponible = estado;
     }
-
     public Libro(String titulo, String autor) {
         this.titulo = titulo;
         this.autor = autor;
         this.disponible = false;
     }
-
     public Libro() {
         this("Sin título", "Desconocido", false);
     }
-
     // Getters
     public String getTitulo() {
         return this.titulo;
@@ -30,7 +25,6 @@ public class Libro {
     public String getAutor() {
         return this.autor;
     }
-
     public boolean getDisponible(){
         return this.disponible;
     }
@@ -39,12 +33,10 @@ public class Libro {
         this.disponible = !this.disponible;
         return this.disponible;
     }
-
     @Override
     public String toString() {
         return "Titulo -> " + titulo + " con autor -> " + autor + " y con estado -> " + disponible;
     }
-
     @Override
     public boolean equals(Object o) {
         if (this == o){
